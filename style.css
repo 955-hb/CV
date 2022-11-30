@@ -1,0 +1,82 @@
+
+
+* {
+  box-sizing:content-box;
+  font-family: 'Arial', cursive;
+  
+}
+
+h2, h3 {
+    font-family: 'Pacifico', sans-serif;
+}
+
+*::selection {
+    background-color: lightcoral;
+  }
+  
+.description::after {
+    content: "👨🏼‍💻";
+}  
+
+/* ##################################################### */
+.body {
+    margin: 0;
+    padding: 15px;
+    max-width: 800;
+    border: 5px solid rgb(191, 227, 187);
+}
+
+.header {
+    text-align: center;
+    background-color: rgb(191, 227, 187);
+    padding: 50px 15px;
+}
+
+.main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.main > * {
+    border-top: 5px solid lightgray;
+  }
+    
+.nav-link {
+    margin: 10px;
+    padding: 4px 8px;
+}
+
+.nav-link:hover {
+    color: lightsalmon;
+}
+
+.link-burg:hover {
+    color: brown;
+}
+
+body > header, main {
+    /* text-align: center; */
+    padding: 50px;
+    
+}
+
+footer {
+    /* text-align: center; */
+    margin: auto;
+    padding: 15px;
+    max-width: 800px;
+    border-top: 5px solid lightgray;
+    
+}
+
+.contact {
+    padding-top: 5px;
+    max-width: 800px;
+    
+}
+
+.adress-link:hover {
+    color: gray;
+}
+
