@@ -1,18 +1,17 @@
-
-
 * {
   box-sizing:content-box;
   font-family: 'Arial', cursive;
-  
+}
+
+*::selection {
+    color: white;
+    background-color: black;
 }
 
 h2, h3 {
     font-family: 'Pacifico', sans-serif;
 }
 
-*::selection {
-    background-color: lightcoral;
-  }
   
 .description::after {
     content: "👨🏼‍💻";
@@ -31,6 +30,7 @@ h2, h3 {
     background-color: rgb(191, 227, 187);
     padding: 50px 15px;
 }
+
 
 .main {
     max-width: 800px;
@@ -52,13 +52,12 @@ h2, h3 {
 }
 
 .link-burg:hover {
-    color: brown;
+    color: red;
 }
 
 body > header, main {
     /* text-align: center; */
-    padding: 50px;
-    
+    padding: 50px;  
 }
 
 footer {
@@ -66,17 +65,38 @@ footer {
     margin: auto;
     padding: 15px;
     max-width: 800px;
-    border-top: 5px solid lightgray;
-    
+    border-top: 5px solid lightgray;  
 }
 
-.contact {
-    padding-top: 5px;
-    max-width: 800px;
-    
-}
 
-.adress-link:hover {
+
+/* ################################################
+Contact */
+
+
+.adress-link-mail:hover {
+    color: gray;
+}
+.adress-link-github:hover {
+    color: gray;
+}
+.adress-link-linkedin:hover {
+    color: gray;
+}
+.adress-link-agb:hover {
     color: gray;
 }
 
+
+.adress-link-mail::before {
+    content: "Mail:";
+}
+.adress-link-linkedin::before {
+    content: "LinkedIn:";
+}
+.adress-link-github::before {
+    content: "Github:";
+}
+.adress-link-agb::before {
+    content: "AGB`s:";
+}
