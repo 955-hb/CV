@@ -69,6 +69,14 @@ footer {
     border-top: 5px solid lightgray;  
 }
 
+.experiences {
+    display: inline-block;
+  }
+  
+.h3-header {
+    display: inline-block;
+  }
+
 
 
 /* ################################################
