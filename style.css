@@ -22,27 +22,39 @@ h2, h3 {
 .body {
     margin: 0;
     padding: 15px;
-    max-width: 800;
     border: 5px solid rgb(191, 227, 187);
 }
 
 .header {
     text-align: center;
     background-color: rgb(191, 227, 187);
-    padding: 50px 15px;
+    padding: 8px 1px;
+    _max-width: 800px;
+    margin: 0 auto;
 }
 
+.hire-me {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    background-color: salmon;
+    color: black;
+    border-radius: 4px;
+    padding: 8px;
+}
 
 .main {
     max-width: 800px;
     margin: 0 auto;
-    padding: 15px;
+    padding: 16px;
 }
 
-.main > * {
+article {
     border-top: 5px solid lightgray;
-  }
+    max-width: 800px;
     
+}
+
 .nav-link {
     margin: 10px;
     padding: 4px 8px;
@@ -59,6 +71,7 @@ h2, h3 {
 body > header, main {
     /* text-align: center; */
     padding: 50px;  
+    
 }
 
 footer {
@@ -66,15 +79,33 @@ footer {
     margin: auto;
     padding: 15px;
     max-width: 800px;
-    border-top: 5px solid lightgray;  
+     
 }
 
 .experiences {
     display: inline-block;
   }
+
+.skills {
+    display: inline-block;
+}
+
+.skills > * {
+    margin: 0px;
+}
+
+ul {
+    margin:10px;
+}
   
+h2 {
+    position: relative;
+    left: -16px;
+}
+
 .h3-header {
     display: inline-block;
+    margin: 10px;
   }
 
 
