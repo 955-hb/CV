@@ -1,19 +1,14 @@
 html {
+    background-color: rgba(173, 120, 99, 0.618);
   box-sizing:border-box;
-  font-family: 'Noto Serif Display', serif;
+  font-family: 'Bebas Neue', cursive;
   color: #000000;
 }
 
-*::selection {
-    color: white;
-    background-color: black;
-}
-
 h2, h3 {
-    font-family: 'Noto Serif Display', serif;
+    font-family: 'Signika Negative', sans-serif;
 }
 
-  
 .description::after {
     content: "👨🏼‍💻";
 }  
@@ -50,6 +45,7 @@ h2, h3 {
 }
 
 article {
+    font-family: 'Signika Negative', sans-serif;
     border-top: 5px solid lightgray;
     max-width: 800px;
     
@@ -68,9 +64,14 @@ article {
     color: red;
 }
 
-body > header, main {
-    /* text-align: center; */
-    padding: 50px;  
+section > H3 {
+    position: relative;
+    left: -10px;
+}
+
+section > p {
+    position: relative;
+    left: 20px;
     
 }
 
@@ -88,14 +89,6 @@ footer {
 
 .skills {
     display: inline-block;
-}
-
-.skills > * {
-    margin: 0px;
-}
-
-ul {
-    margin:10px;
 }
   
 h2 {
