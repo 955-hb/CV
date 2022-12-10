@@ -1,100 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="author" content="Hannes Broehl">
-<link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.1/normalize.css"/>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&family=Noto+Serif+Display&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="normalize.css">
-<link rel="stylesheet" href="style.css">
-<meta name="description" content="This is the CV of Hannes Broehl!"/>
-    <title>The CV of Hannes Broehl</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <title>HB-Lebenslauf</title>
 </head>
-<body class="body">
+<body>
     <header class="header">
-        <div class="heading-groud">
-        <h1 class="hb-main">Hannes Broehl</h1>
-        <p class="description">trainee </p>
+        <div class="heading">
+            <h1>Hannes Bröhl</h1>
+            <p class="trainee">trainee</p>
+            <nav class="nav-heading">
+                <a class="nav-link" href="#profil">Profil</a>
+                <a class="nav-link" href="#experiences">Experiences</a>
+                <a class="nav-link" href="#skills">Skills</a>
+                <a class="nav-link" href="#contact">Contact</a>
+            </nav>
         </div>
-        <nav>
-            <a class="nav-link" href="#profile"> Profile</a>
-            <a class="nav-link" href="#experiences"> Experiences</a>
-            <a class="nav-link" href="#skills"> Skills</a>
-            <a class="nav-link" href="#contact"> Contact</a>            
-        </nav>
-        <aside class="hire-me">Hire me!</aside>
+        <aside class="hire-me" id="hire-me">Hire Me!</aside>
     </header>
-        <main class="main">
-            <article id="profile">
-                <h2 class="profile">Profile</h2>
-                <p>I was born on 16.03.1990 in <a class="link-burg" href="https://www.stadtburg.info/startseite.html" target="_blank"> Burg</a> (near Magdeburg).
-                    <br> In 2017 I moved to Berlin after my apprenticeship.<br> Since the beginning of 2020 I have discovered programming for myself and since then. I am interested in a career change. </p>
-            </article>
-            <article id="experiences">
-                <h2 class="experiences">Experiences</h2>
-                <section>
-                    <h3 class="h3-header">Coding Bootcamps Europe GmbH</h3>
-                    <p>11/2022 - present </p>
-                </section>
-                <section>
-                    <h3 class="h3-header">independent learning to coding</h3>
-                    <p>01/2021 - present </p>
-                </section>
-                <section>
-                    <h3 class="h3-header">CAD-Planner</h3>
-                    <p>07/2022 - present </p>
-                </section>
-                <section>
-                    <h3 class="h3-header">Event-Technician</h3>
-                        <p>04/2013 - 06/2022</p>
-                </section>
-                <section>
-                    <h3 class="h3-header">Media-Technician</h3>
-                    <p>08/2008 - 07/2010</p>
-                </section>
-            </article>
-            <article id="skills">
-                    <h2 class="skills">Skills</h2>
-                    <section>
-                        <h3 class="h3-header">- Soft Skills</h3>
-                        <ul>
-                            <li>friendly to others</li>
-                            <li>sympathetic</li>
-                            <li>other people say...a cool guy</li>
-                        </ul>
-                        
-                    </section>
-                    <section>
-                        <h3 class="h3-header">- Technical Skills</h3>
-                        <ul>
-                            <li>HTML:CSS</li>
-                            <li>JavaScript</li>
-                    </ul>
-                </section>
-             </article>
-                  
-        </main>
-        <footer class="footer">
-            <article id="contact">
-                <h2 class="contact">Contact</h2>
-                <section>
-                    <address class="adress">
-                        <ul class="contact-adress">
-                            <li class="adress-link-mail"><a href="mailto:hannes.broehl@icloud.com">hannes.broehl@icloud.com</a><br></li>
-                            <li class="adress-link-linkedin"><a href="https://de.linkedin.com/in/hannes-br%C3%B6hl" target="_blank"> check my profile</a><br></li>
-                            <li class="adress-link-github"><a href="https://github.com/search?q=955-hb" target="_blank"> check my skills</a><br></li>
-                            <li class="adress-link-agb"><small> §§§ es gibt <strong>keine </strong>(bisher!)  AGB`s  §§§</small></li>
-                        </ul>
-                </address>
-                </section>
-             </article>
-        </footer>
+    <main>
+        <article class="article" id="article">
+            <h2 class="main-h2" id="profil">Profil</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti sequi sed magni, hic dolore in excepturi dolorem, vel necessitatibus perferendis quos tempore, itaque quasi dicta? Mollitia, error excepturi. Repellat similique quasi eaque sit doloremque, nam et iste at fuga nisi perferendis placeat ipsa molestias! Hic, debitis ipsam recusandae vel ipsa fugiat minus repudiandae magni quod modi laboriosam saepe, culpa fugit quo iusto! Recusandae nobis provident eum quibusdam consequatur ut laboriosam repudiandae vel facilis debitis, corporis commodi, autem maiores dolore quia eligendi officia adipisci. Non inventore mollitia a est iure cum facilis. Ullam officiis, modi ab veritatis enim dicta suscipit non consectetur deleniti doloribus officia repellendus quod, qui amet obcaecati. Rem quod at similique perferendis velit veritatis, nisi, sit inventore eligendi nostrum qui iure esse odit consequuntur adipisci? Unde, quis? Quisquam quaerat quos dolorum cum libero ipsum tenetur minima similique totam odit, reiciendis omnis nemo vitae maxime commodi sit. Itaque animi odit consequuntur deserunt earum est obcaecati aut illum labore. Error, ipsam eum vero corporis aliquid modi, id tenetur natus ea, quidem aspernatur incidunt dolorum nisi adipisci! Molestiae commodi numquam temporibus eveniet impedit repellat ducimus modi id fugit! Amet tempora ducimus temporibus natus accusamus libero quis accusantium. Deserunt quos neque minima ipsa, explicabo ad praesentium provident voluptatibus a hic illum enim necessitatibus quidem? Nostrum quia enim commodi necessitatibus ea, sit deserunt? Impedit consectetur sequi eum hic exercitationem similique et deleniti sapiente commodi iure iste, atque incidunt temporibus quibusdam quod ratione qui possimus ipsum recusandae fugit provident. Adipisci fuga necessitatibus commodi illo aliquam repellat error facilis repellendus pariatur quisquam sunt odit dolorum nemo iure tempore dolore, incidunt neque sint aperiam vel labore consequuntur enim quis. Eum necessitatibus fugiat doloribus. Quia pariatur repellat consectetur sint voluptate quibusdam laboriosam. Magnam maiores aliquid adipisci explicabo optio est sint minus quasi dolorum expedita, maxime corporis dolor!</p>
+        </article>
+        <article class="experiences" id="experiences" >
+            <h2 class="main-h2" id="experiences"> Experiences</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur qui quod ipsam nulla temporibus facere, fuga praesentium id at esse. Debitis asperiores vitae necessitatibus quibusdam quam. Laborum suscipit velit culpa nemo consequatur, rerum dolore quis sunt soluta pariatur, facilis nisi veritatis quam commodi voluptatibus dolores totam. Voluptatibus omnis tempore possimus architecto praesentium tenetur cumque rem temporibus quibusdam quidem. Quos quae exercitationem quo sit amet eaque recusandae, velit officiis excepturi natus adipisci repellendus ipsa commodi ipsum quia, molestias incidunt sequi illo illum nulla aut consequuntur fuga. Omnis, assumenda quia quos dolorum unde eos doloribus dolore in dignissimos! Quasi voluptatibus maxime ut, ex pariatur dignissimos odio laborum, debitis reiciendis rerum nesciunt sit ratione tempora sapiente modi, voluptate recusandae harum molestias laboriosam facere. Quaerat molestiae ipsum assumenda reprehenderit. Praesentium consectetur suscipit dolor accusamus voluptatem, ratione sequi deleniti fugit minus sunt molestiae deserunt architecto necessitatibus illo labore numquam perferendis eligendi esse reiciendis! Quas quod fugiat ipsum id perspiciatis debitis nobis impedit alias unde rem reprehenderit placeat quam quae incidunt et nesciunt neque, doloribus praesentium repudiandae libero culpa vero quisquam itaque illo. Minus architecto, iste tempore expedita maxime veniam eaque cupiditate! Beatae delectus nobis pariatur fuga esse officiis laudantium commodi possimus natus veniam dolorum explicabo nam excepturi recusandae praesentium eum perspiciatis, repudiandae tempora a minima tenetur dignissimos, aliquam nisi? Ducimus perferendis pariatur dolor voluptatum impedit assumenda, a error repudiandae cupiditate aspernatur dolorum modi placeat vero. Atque nam accusantium voluptas pariatur consectetur? Quis temporibus eligendi dolore, sunt in odit delectus expedita velit necessitatibus error iure quos porro quae adipisci repellat, voluptates impedit illo minima possimus accusantium. Placeat minus, sapiente, soluta voluptas saepe alias velit ut eius commodi cupiditate voluptatum iste omnis sit facilis repellendus! Omnis quae facere fugit officia. Enim iure velit illum cupiditate recusandae, fugit dolores. A atque numquam praesentium molestias aperiam veritatis et architecto.</p>
+        </article>
+        <article class="skills" id="skills" >
+            <h2 class="main-h2" id="skills"> Skills</h2>
+            <h3 class="main-h3">Skills 1</h3>
+        <ul class="skills-ul">
+            <li class="skills-li">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia sint eveniet distinctio ea, ipsum consequatur, cumque, quae voluptatibus qui accusamus beatae dolores minima illum ullam quaerat? Illum mollitia veritatis quidem ducimus debitis autem non officiis consequuntur, repellendus eaque nam natus sed nobis laborum, molestiae explicabo, aliquid amet? Ipsa, assumenda deserunt.</li>
+            <li class="skills-li">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia sint eveniet distinctio ea, ipsum consequatur, cumque, quae voluptatibus qui accusamus beatae dolores minima illum ullam quaerat? Illum mollitia veritatis quidem ducimus debitis autem non officiis consequuntur, repellendus eaque nam natus sed nobis laborum, molestiae explicabo, aliquid amet? Ipsa, assumenda deserunt.</li>
+            <li class="skills-li">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia sint eveniet distinctio ea, ipsum consequatur, cumque, quae voluptatibus qui accusamus beatae dolores minima illum ullam quaerat? Illum mollitia veritatis quidem ducimus debitis autem non officiis consequuntur, repellendus eaque nam natus sed nobis laborum, molestiae explicabo, aliquid amet? Ipsa, assumenda deserunt.</li>
+        </ul>
+        <h3 class="main-h3">Skills 2</h3>
+        <ul class="skills-ul">
+            <li class="skills-li">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat atque unde itaque voluptatibus dolores ea, cum, sequi quis, minus asperiores exercitationem ipsam. Voluptatem, laboriosam at! Natus, ducimus molestias consequatur repellendus commodi possimus, cupiditate quia nemo voluptates, aperiam illum hic dolorem obcaecati harum quam quisquam quasi iusto? Fuga eaque temporibus eum..</li>
+            <li class="skills-li">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat atque unde itaque voluptatibus dolores ea, cum, sequi quis, minus asperiores exercitationem ipsam. Voluptatem, laboriosam at! Natus, ducimus molestias consequatur repellendus commodi possimus, cupiditate quia nemo voluptates, aperiam illum hic dolorem obcaecati harum quam quisquam quasi iusto? Fuga eaque temporibus eum..</li>
+            <li class="skills-li">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat atque unde itaque voluptatibus dolores ea, cum, sequi quis, minus asperiores exercitationem ipsam. Voluptatem, laboriosam at! Natus, ducimus molestias consequatur repellendus commodi possimus, cupiditate quia nemo voluptates, aperiam illum hic dolorem obcaecati harum quam quisquam quasi iusto? Fuga eaque temporibus eum..</li>
+        </ul>
+        </article>
+        
+    </main>
+    <footer class="footer">
+        <article class="contact"  id="contacs">
+            <h2 class="main-h2" id="contact">Contact</h2>
+            <ul>
+                <li class="mail" id="footer-link" ><a href="mailto:hannes.broehl@icloud.com">hannes.broehl@icloud.com</a></li>
+                <li class="phone" id="footer-link"><a href=" ">0000/00000000</a></li>
+                <li class="github" id="footer-link"><a href="www.github.com">Github</a></li>
+                
+            </ul>
+            
+        </article>
+    </footer>
 </body>
 </html>
