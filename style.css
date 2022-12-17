@@ -7,9 +7,9 @@
 }
 
 html {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   font-size: 16px;
-  background-color: #FBE0C3;
+  background-color: #fbe0c3;
   color: #262220;
 }
 
@@ -31,7 +31,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
 }
 
 body {
@@ -44,19 +44,17 @@ body {
 
 /* ########### -Styling - ########### */
 
-
 .header {
   padding: 3rem 1rem;
   padding-top: 4.5rem;
   text-align: center;
-  background-color: #FFBB9B;
+  background-color: #ffbb9b;
+  background-image: linear-gradient(to right bottom, red 15%, #ffbb9b 85%);
   position: relative;
 }
 
-
 .main-heading {
   font-size: 2em;
-  
 }
 
 .trainee {
@@ -172,4 +170,18 @@ body {
     align-items: baseline;
     justify-content: space-between;
   }
+}
+
+.footer {
+  padding: 3rem 1rem;
+  padding-top: 4.5rem;
+  text-align: center;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    125deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(255, 187, 155, 1) 53%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  position: relative;
 }
