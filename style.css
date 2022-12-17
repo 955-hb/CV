@@ -49,7 +49,7 @@ body {
   padding-top: 4.5rem;
   text-align: center;
   background-color: #ffbb9b;
-  background-image: linear-gradient(to right bottom, red 15%, #ffbb9b 85%);
+  background-image: linear-gradient(to right bottom, red 2%, #ffbb9b 85%);
   position: relative;
 }
 
@@ -145,7 +145,7 @@ body {
 }
 
 .main > * {
-  border-top: 0.125rem solid grey;
+  border-top: 0.125rem solid #ffbb9b;
   padding: 0 1rem;
 }
 
