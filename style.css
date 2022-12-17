@@ -76,6 +76,11 @@ body {
   border-radius: 0.25rem;
   background: orange;
   color: black;
+  background: linear-gradient(
+    orange 30%,
+
+    white 90%
+  );
 }
 
 @media screen and (min-width: 992px) {
