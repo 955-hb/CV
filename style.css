@@ -9,6 +9,8 @@
 :root {
   --background-color: #fbe0c3;
   --color: #262220;
+  --accent-color: lightgreen;
+  --accent-text-color: blue;
 }
 
 html {
@@ -120,16 +122,25 @@ body {
 .nav-link {
   padding: 0.25rem 0.5rem;
   color: black;
+  background-color: rgb(233, 195, 123);
+  transition:  .5s linear;
+  transition-timing-function: ease-in;
+}
+
+.nav-link:focus {
+  background-color: var(--accent-color);
+  outline-color: var(--accent-text-color);
+  outline-style:double;
 }
 
 .nav-link:hover {
   color: black;
-  background-color: lightgray;
+  background-color: var(--background-color);
 }
 
 .nav-link:active {
   color: white;
-  background-color: grey;
+  background-color: var(--background-color);
 }
 
 @media screen and (min-width: 768px) {
@@ -157,7 +168,7 @@ body {
 }
 
 .main > * {
-  border-top: 0.125rem solid var(--background-color);
+  border-top: .25rem solid var(--color);
   padding: 0 1rem;
 }
 
