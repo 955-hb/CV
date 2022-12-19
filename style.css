@@ -1,4 +1,4 @@
-/* ########### - Main-Styling - ########### */
+
 
 *,
 *:before,
@@ -6,11 +6,16 @@
   box-sizing: border-box;
 }
 
+:root {
+  --background-color: #fbe0c3;
+  --color: #262220;
+}
+
 html {
+ 
   font-family: "Roboto Mono", monospace;
   font-size: 16px;
-  background-color: #fbe0c3;
-  color: #262220;
+  
 }
 
 @media screen and (min-width: 768px) {
@@ -133,8 +138,10 @@ body {
   }
 }
 
+/* ########### - Main-Styling - ########### */
+
 .main {
-  max-width: 60ch;
+  background-color: var(--background-color);
   margin: 0 auto;
   padding: 1rem;
 }
@@ -150,7 +157,7 @@ body {
 }
 
 .main > * {
-  border-top: 0.125rem solid #ffbb9b;
+  border-top: 0.125rem solid var(--background-color);
   padding: 0 1rem;
 }
 
@@ -177,11 +184,13 @@ body {
   }
 }
 
+/* ########### - Footer-Styling - ########### */
+
+
 .footer {
   padding: 3rem 1rem;
   padding-top: 4.5rem;
   text-align: center;
-  background: rgb(2, 0, 36);
   background: linear-gradient(
     125deg,
     rgba(2, 0, 36, 1) 0%,
