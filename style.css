@@ -8,6 +8,8 @@
 
 :root {
   --background-color: #fbe0c3;
+  --selec-background-color:plum;
+  --header-background-color:  #ffbb9b;
   --color: #262220;
   --accent-color: lightgreen;
   --accent-text-color: blue;
@@ -40,7 +42,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto Mono", monospace;
+  font-family: var(--font-family);
 }
 
 body {
@@ -48,7 +50,7 @@ body {
 }
 
 *::selection {
-  background-color: plum;
+  background-color: var(--selec-background-color)
 }
 
 /* ########### -Styling - ########### */
@@ -57,7 +59,7 @@ body {
   padding: 3rem 1rem;
   padding-top: 4.5rem;
   text-align: center;
-  background-color: #ffbb9b;
+  background-color: var(--header-background-color);
   background-image: linear-gradient(to right bottom, red 2%, #ffbb9b 85%);
   position: relative;
 }
